@@ -1,0 +1,17 @@
+
+
+
+/* shared style start */
+
+
+.inter {
+  font-family: "Inter", sans-serif;
+}
+
+/* shared style end */
+
+.linear-gradient {
+    background: linear-gradient(20deg, #F7E93F 15%,#FB09B4 51%,#9100F8 100%);
+    color: #fff;
+}
+

@@ -1,24 +1,74 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TechWave Podcast</title>
-</head>
-<body>
-    <header>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/tailwind.init.css" />
+  </head>
+  
+  <body class="inter">
+    <header>
+      <!-- navbar part start -->
+      <section class="total-navbar-main-parent bg-[#1A0B2E] p-6 ">
+        <nav class="navbar flex justify-between items-center max-w-[80%] mx-auto">
+          <div class="navbar__logo">
+                <img src="./assets/TechWave.png" alt="TechWave logo">
+          </div>
+          <div class="navbar-menu-main-parent">
+            <ul class="navbar__menu flex items-center gap-[1.9rem]">
+              <li class="navbar__items font-medium text-white">
+                <a href="">About</a>
+              </li>
+              <li class="navbar__items font-medium text-white">
+                <a href="">Episodes</a>
+              </li>
+              <li class="navbar__items font-medium text-white">
+                <a href="">Host</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="navbar_btn">
+            <button class="linear-gradient rounded-3xl font-semibold px-5 py-3">
+              Subscribe <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </nav>
+      </section>
+      <hr class="border-2 border-amber-400">
+
+      <!-- navbar part end -->
+   
+      <!-- banner part start -->
+       <section class="total-banner-main-parent">
+                
+      </section>
+      <!-- banner part end -->
+
+      
     </header>
 
+    <main></main>
 
-
-    <main>
-
-    </main>
-
-
-    <footer>
-
-    </footer>
-</body>
+    <footer></footer>
+  </body>
 </html>
