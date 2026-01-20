@@ -15,3 +15,35 @@
     color: #fff;
 }
 
+/* navbar part start */
+
+  .navbar_hambarger_icon {
+    display: none;
+  }
+/* navbar part end */
+
+
+
+@media screen and (max-width: 576px) {
+    /* navbar part start */
+
+    .total-navbar-main-parent {
+        background-color: #1a0b2e;
+    }
+    .navbar__logo {
+        width: 40%;
+    }
+    .navbar__menu {
+        display: none;
+    }
+
+    .navbar_btn {
+        display: none;
+    }
+
+    .navbar_hambarger_icon {
+         display: block;
+     }
+    /* navbar part end */
+}
+
