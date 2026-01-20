@@ -1,8 +1,4 @@
-
-
-
 /* shared style start */
-
 
 .inter {
   font-family: "Inter", sans-serif;
@@ -11,56 +7,65 @@
 /* shared style end */
 
 .linear-gradient {
-    background: linear-gradient(20deg, #F7E93F 15%,#FB09B4 51%,#9100F8 100%);
-    color: #fff;
+  background: linear-gradient(20deg, #f7e93f 15%, #fb09b4 51%, #9100f8 100%);
+  color: #fff;
 }
 
 /* navbar part start */
 .navbar {
-    max-width: 80%;
+  max-width: 80%;
 }
-  .navbar_hambarger_icon {
-    display: none;
-  }
+.navbar_hambarger_icon {
+  display: none;
+}
 /* navbar part end */
-
 
 /* banner part start */
 
 .total-banner-main-parent {
-    background-image: url(../assets/hero-bg.png);
-    height: 750px;
-    background-repeat: no-repeat;
-    background-size: 100%;
+  background-image: url(../assets/hero-bg.png);
+  min-height: 750px;
+  background-size: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
 }
+
 /* banner part end */
 
-
-
 @media screen and (max-width: 576px) {
-    /* navbar part start */
+  /* navbar part start */
 
-    .navbar {
+  .navbar {
     max-width: 100%;
+  }
+
+  .total-navbar-main-parent {
+    background-color: #1a0b2e;
+  }
+  .navbar__logo {
+    width: 40%;
+  }
+  .navbar__menu {
+    display: none;
+  }
+
+  .navbar_btn {
+    display: none;
+  }
+
+  .navbar_hambarger_icon {
+    display: block;
+  }
+  /* navbar part end */
+
+  /* banner part start */
+  .total-banner-main-parent {
+    background-image: url(../assets/hero-bg.png);
+    /* height: 750px; */
+    min-height: 350px;
+    background-size: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+  }
+  /* banner part end */
 }
-
-    .total-navbar-main-parent {
-        background-color: #1a0b2e;
-    }
-    .navbar__logo {
-        width: 40%;
-    }
-    .navbar__menu {
-        display: none;
-    }
-
-    .navbar_btn {
-        display: none;
-    }
-
-    .navbar_hambarger_icon {
-         display: block;
-     }
-    /* navbar part end */
-}
-
