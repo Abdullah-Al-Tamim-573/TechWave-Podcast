@@ -24,14 +24,6 @@
 
 /* banner part start */
 
-.total-banner-main-parent {
-  background-image: url(../assets/hero-bg.png);
-  min-height: 750px;
-  background-size: 100%;
-  width: 100%;
-  background-repeat: no-repeat;
-}
-
 /* banner part end */
 
 @media screen and (max-width: 576px) {
@@ -61,13 +53,6 @@
   /* navbar part end */
 
   /* banner part start */
-  .total-banner-main-parent {
-    background-image: url(../assets/hero-bg.png);
-    /* height: 750px; */
-    min-height: 350px;
-    background-size: 100%;
-    width: 100%;
-    background-repeat: no-repeat;
-  }
+ 
   /* banner part end */
 }
